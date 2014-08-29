@@ -1,0 +1,26 @@
+Personal vim Configuration Repository
+=====================================
+
+This repository is use to hold my personal vim configurations for easy
+replication to different hosts.  This repo is not meant to be checked out by
+anyone else and is simply convenience for me.
+
+Installation on a New Host
+==========================
+
+To install this vim configuration on a new host, execute the following:
+
+cd ~
+git clone http://github.com/scruffynerfherder/dotvim.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+cd ~/.vim
+
+Additionally, if any plugins are added as submodules, execute the following:
+
+git submodule init
+git submodule update
+
+More Information
+================
+
+see http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/

@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/donut/Work'
+let g:netrw_dirhist_2='/home/donut/Work/x_dm_qual_test'
+let g:netrw_dirhist_3='/home/donut/Work/x_dm_qual_test/trunk'
+let g:netrw_dirhist_4='/home/donut/Work/x_dm_qual_test/trunk/src'
