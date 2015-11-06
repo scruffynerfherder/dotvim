@@ -1,0 +1,3 @@
+[submodule "bundle/openscad-syntax"]
+	path = bundle/openscad-syntax
+	url = https://github.com/sirtaj/vim-openscad.git
